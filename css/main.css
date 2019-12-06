@@ -13,7 +13,64 @@ p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
 
+.title {
+  background-color: #fcce00;
+  text-align: center;
+  opacity: 0.81;
+  font-family: Poppins;
+  font-size: 88px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+}
 
+.section-title{
+  background-color:#ff6b00;
+  text-align: center;
+  opacity: 0.81;
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sub-title{
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center ;
+}
+.titreparagraphe{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.paragraphe{
+  font-family: Poppins;
+  font-size: 16px;
+  text-align: justify;
+}
+.button{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.box{
+  display: flex;
+}
+
+.box div {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.box2 div {
+  flex-basis: 0;
+  flex-grow: 1;
+}
 
 h1 {
    /* Default font, size, and margins */
@@ -27,9 +84,7 @@ h3 {
   /* Default font, size, and margins */
 }
 
-h4 {
-  /* Default font, size, and margins */
-}
+
 
 h5 {
   /* Default font, size, and margins */
